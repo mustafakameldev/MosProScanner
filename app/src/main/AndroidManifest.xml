@@ -2,12 +2,44 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mospro.scanner">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"></application>
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="                     MosPro Scanner "
+            android:theme="@style/MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ZxingActivity"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Database.DatabaseActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mospro.scanner.MainActivity" />
+        </activity>
+        <activity android:name=".Database.ZxingAdd" />
+        <activity
+            android:name=".Database.AddProductActivity"
+            android:label="@string/addProductDB" />
+        <activity android:name=".Database.EditActivity" />
+        <activity android:name=".Database.ZxingBillActivity" />
+        <activity android:name=".Database.BillActivity"></activity>
+    </application>
 
 </manifest>

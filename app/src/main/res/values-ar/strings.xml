@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="scan">قراءة</string>
+    <string name="createDatabase">تكوين بيانات</string>
+    <string name="searchNet">بحث عبر الانترنت</string>
+    <string name="search">بحث</string>
+    <string name="DBActivity">بياناتي</string>
+    <string name="typeName">اسم بياناتك</string>
+    <string name="typeNameHint">تسمية</string>
+    <string name="addProduct">اضافة منتج</string>
+    <string name="saleproduct">بيع</string>
+    <string name="cancel">إلغاء</string>
+    <string name="addProductDB">إضافة المنتج للبيانات</string>
+    <string name="name">الاسم</string>
+    <string name="price">السعر</string>
+    <string name="limits">الحد</string>
+    <string name="disc">الوصف</string>
+    <string name="units">الوحدات</string>
+    <string name="added">تمت الإضافة</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="chooseAction">"إختر "</string>
+    <string name="sureDelete">متأكد من رغبتك في حذف هذا الحقل ؟</string>
+    <string name="deleteEntry">حذف الحقل</string>
+    <string name="history">تاريخ</string>
+    <string name="bill">فاتوره</string>
+    <string name="oneMore">إضافة المزيد</string>
+    <string name="showList">اظهر القائمة</string>
+    <string name="addToBill">اضف للفاتورة</string>
+    <string name="count">احسب</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_home">المنتجات</string>
+    <string name="title_notifications">النواقص</string>
+    <string name="hello_blank_fragment">start</string>
+    <string name="title_activity_batabase">Database</string>
+    <string name="productExists">هذا المنتج موجود بالفعل</string>
+    <string name="welcome">مرحبا</string>
+    <string name="WhatMPCanDo">ماذا يفعل هذا التطبيق ؟</string>
+    <string name="readBarcode">"قراءة الباركود وعمل تأريخ لما بحثت عنه مسبقا - "</string>
+    <string name="crDB">- عمل قائمة بيانات خاصه بك</string>
+    <string name="addDetials">- اضافة المواصفات الخاصه لكل منتج</string>
+    <string name="makeBills">- عمل فواتير خاصة</string>
+    <string name="displayShortcuts">- عرض النواقص طبقا للحد الخاص بالمنتج</string>
+</resources>
